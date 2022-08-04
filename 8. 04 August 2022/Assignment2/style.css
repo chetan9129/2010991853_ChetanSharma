@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#parent
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#b1
+{
+    margin: 50px;
+
+}
+.div1{
+    height: 150px;
+    width: 150px;
+    background-color: rgba(167, 222, 135, 0.623);
+    margin: auto;
+}
