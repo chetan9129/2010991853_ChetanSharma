@@ -14,9 +14,16 @@
     margin: 50px;
 
 }
-.div1{
+#div1{
     height: 150px;
     width: 150px;
     background-color: rgba(167, 222, 135, 0.623);
     margin: auto;
+}
+.div1
+{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: rgba(167, 222, 135, 0.623);
 }
