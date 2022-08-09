@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&family=Press+Start+2P&display=swap');
+/* 
+* {
+      box-sizing: border-box;
+} */
+
+#div1 {
+
+      text-align: center;
+      padding: 20px;
+      margin: 5px;
+      background-color: #aee1f9;
+      background-image: linear-gradient(315deg, #aee1f9, lime);
+}
+
+body {
+      background-color: #b8c6db;
+      background-image: linear-gradient(315deg, #b8c6db, rgba(0, 255, 255, 0.424));
+}
+
+h1 {
+      text-align: center;
+      font-family: 'Press Start 2P', cursive;
+}
+      
+#div2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #d3d3d3;
+      background-image: linear-gradient(315deg, #d3d3d3 0%, #eccc68 100%);
+      padding: 20px;
+      margin: 5px;
+}
+
+.div2Child1 {
+      background-color: purple;
+      /* display: flex;
+      justify-content: center;
+      align-items: center; */
+      text-align: center;
+      height: 100px;
+      width: 100px;
+      text-align: center;
+      margin: 1px;
+}
+
+.div2Child2 {
+      border: 3px solid olive;
+      height: 100px;
+      text-align: center;
+
+      width: 100px;
+      margin: 1px;
+      background-color: #fff;
+
+}
+
+.div2Child3 {
+      /* border: 2px solid olive; */
+      height: 100px;
+      width: 100px;
+      text-align: center;
+      background-color: grey;
+      margin: 1px;
+
+}
+
+#div3 {
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+}
+
+.div3Child1 {
+      border: 2px solid green;
+      background-color: #f1f2f6;
+      background-image: linear-gradient(315deg, #f1f2f6 0%, #e5e4e4af 100%);
+      height: 100px;
+}
+
+.div3Child2 {
+      border: 2px solid green;
+      background-color: #f1f2f6;
+      background-image: linear-gradient(315deg, #f1f2f6 0%, #e5e4e4af 100%);
+      height: 100px;
+
+
+}
+
+.div3Child3 {
+      border: 2px solid green;
+      background-color: #f1f2f6;
+      background-image: linear-gradient(315deg, #f1f2f6 0%, #e5e4e4af 100%);
+      height: 100px;
+
+
+}

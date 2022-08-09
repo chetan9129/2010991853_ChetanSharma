@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #c2eaba;
+  background-image: linear-gradient(
+    319deg,
+    #c2eaba 0%,
+    #c5f4e0 37%,
+    #efc2cf 100%
+  );
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.heading1 {
+  font-family: "Shadows Into Light", cursive;
+  text-align: center;
+  font-size: 50px;
+  margin: 50px auto;
+}
+#i1 {
+  font-size: 30px;
+  display: block;
+  margin: auto;
+  width: 500px;
+  height: 50px;
+  background-color: #c5f4e0;
+  font-family: 'Mouse Memoirs', sans-serif;
+  text-align: center;
+
+}
+input:valid {
+  font-weight: normal;
+  color: green;
+}
+input:invalid {
+  font-weight: normal;
+  color: red;
+}
+button:hover {
+  transition-duration: 400ms;
+  scale: 1.2;
+}
+#b1 {
+  background-color: rgba(0, 255, 255, 0.588);
+  width: 175px;
+  font-size: 25px;
+  border: none;
+  border-radius: 3px;
+  display: block;
+  text-align: center;
+  margin: 50px auto;
+}
+#create {
+  text-align: center;
+  margin: 30px auto;
+  background-color: #7f1f3a;
+  transition-delay: 450ms;
+  transition-duration: 450ms;
+}
