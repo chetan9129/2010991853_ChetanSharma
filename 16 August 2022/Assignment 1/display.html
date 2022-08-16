@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function get() {
+        let a = (document.getElementById("s1").innerHTML =
+          localStorage.getItem("txtvalue"));
+        let b = (document.getElementById("s2").innerHTML =
+          localStorage.getItem("txtvalue1"));
+        let c = (document.getElementById("s3").innerHTML =
+          localStorage.getItem("txtvalue2"));
+        console.log(a);
+        console.log(b);
+        console.log(c);
+      }
+    </script>
+    <h3>Here's your saved data from INDEX.html</h3>
+    <p>Email: <span id="s1"></span></p>
+    <p>Password: <span id="s2"></span></p>
+    <p>Mobile: <span id="s3"></span></p>
+    <input type="button" value="Get data" onclick="get()" />
+  </body>
+</html>
