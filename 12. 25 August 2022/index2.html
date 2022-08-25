@@ -1,0 +1,27 @@
+<!-- Promise in javascript -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="p1"></p>
+    <button onclick="f1()">Clickk Me</button>
+    <script>
+      function f1() {
+        async function f() {
+          let p = new Promise((resolve, reject) => {
+            setTimeout(() => resolve("Done"), 2000);
+          });
+          let result = await p;
+          document.getElementById("p1").innerHTML = result;
+          //   alert(result);
+        }
+        f();
+      }
+    </script>
+  </body>
+</html>
