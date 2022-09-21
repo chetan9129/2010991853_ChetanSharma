@@ -1,11 +1,13 @@
 import "./App.css";
-import Header from "./Component/Header.js";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Home from "./Pages/Home";
 
 function App() {
   return (
     <div className="App">
-      <h2>Hello</h2>
-      <Header title='React Tutorial'/>
+      <h1>This is the App component</h1>
+      <p>This is Paragraph178</p>
+      <Home/>
     </div>
   );
 }

@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-width: 1024px;
+  background-size: cover;
+  min-height: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-image: url("./Images/universe.jpg");
+} 
+.container {
+  /* max-width: 1000px; */
+}
+.headingContainer {
+  margin: 50px;
+  color: white;
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  animation: glow 2s ease-in infinite alternate;
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #4900e6,
+      0 0 40px #00cfe6, 0 0 50px #00dbe6e0, 0 0 60prgb (127, 0, 230) 73,
+      0 0 70px #1b00e6;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #4dbbff, 0 0 40px #4900e6,
+      0 0 50px #4d7aff, 0 0 60px #4d50ff, 0 0 70px #974dff, 0 0 80px #4d88ff;
+  }
+}
+.inputDiv {
+  font-family: "Orbitron", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 18px;
+  margin-right: 10px;
+}
+.inputDiv label {
+  color: white;
+  font-size: 18px;
+}
+.inputDiv input {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid blue;
+  text-shadow: -1px -1px 26px rgba(255, 255, 255, 0.88);
+  color: white;
+
+  /* color: white; */
+}
+input:hover {
+}
+
+.checkWeightBtn {
+  padding: 5px;
+  font-size: 18px;
+  background: transparent;
+  color: white;
+  border: 1px solid blue;
+}
+.checkWeightBtn:hover {
+  background-color: white;
+  color: blue;
+  transition: all 1s ease;
+}
+.planet {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  /* justify-content: space-between; */
+  column-gap: 75px;
+  /* margin-left: 150px; */
+  margin: 25px;
+}
+.planet p {
+  font-family: "Orbitron", sans-serif;
+
+  color: white;
+  margin: 15px;
+  font-size: 22px;
+}
+.earth_img {
+  height: 150px;
+  width: 150px;
+  background-size: cover;
+  margin: 25px;
+  animation-name: scale, spin;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+/* @keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} */
+
+@keyframes scale {
+  0% {
+    transform: rotate(0);
+    transform: scale(1);
+  }
+  25% {
+    /* transform: rotate(45deg); */
+    transform: scale(1.2);
+    animation-timing-function: ease-in;
+  }
+  50% {
+    /* transform: rotate(90deg); */
+    transform: scale(1.4);
+    animation-timing-function: ease-in;
+  }
+  75% {
+    /* transform: rotate(270deg); */
+    transform: scale(1.2);
+    animation-timing-function: ease-in-out;
+  }
+  100% {
+    /* transform: rotate(360deg); */
+    transform: scale(1);
+    animation-timing-function: ease-in-out;
+  }
+}
+.jupitor_img {
+  height: 150px;
+  width: 150px;
+  background-size: cover;
+  margin: 25px;
+
+  animation-name: scale;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.mars_img {
+  height: 150px;
+  width: 150px;
+  background-size: cover;
+  margin: 25px;
+
+  animation-name: scale;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+.mercury_img {
+  height: 150px;
+  width: 150px;
+  background-size: cover;
+  margin: 25px;
+
+  animation-name: scale;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+.moon_img {
+  height: 150px;
+  width: 150px;
+  background-size: cover;
+  margin: 25px;
+
+  animation-name: scale;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.neptune_img {
+  height: 150px;
+  width: 150px;
+  background-size: cover;
+  margin: 25px;
+  animation-name: scale;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+.pluto_img {
+  height: 150px;
+  width: 150px;
+  background-size: cover;
+  margin: 25px;
+
+  animation-name: scale;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+.saturn_img {
+  height: 150px;
+  width: 180px;
+  background-size: cover;
+  margin: 25px;
+
+  animation-name: scale;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+.uranus_img {
+  height: 150px;
+  width: 150px;
+  background-size: cover;
+  margin: 25px;
+
+  animation-name: scale;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+.venus_img {
+  height: 150px;
+  width: 150px;
+  background-size: cover;
+  margin: 25px;
+
+  animation-name: scale;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+/* .venus_img {
+  height: 150px;
+  width: 150px;
+  background-size: cover;
+}
+.jma.mars_img:hover {
+  scale: 1.2;
+  transition: all 1s ease;
+} */
