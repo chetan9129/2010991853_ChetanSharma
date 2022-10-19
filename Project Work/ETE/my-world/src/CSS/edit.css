@@ -1,0 +1,8 @@
+.editUser {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  border: 1px solid gold;
+  box-shadow: 5px 5px gold;
+}

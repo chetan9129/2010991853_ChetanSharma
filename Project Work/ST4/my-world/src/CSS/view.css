@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&display=swap");
+.view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  border: 1px solid gold;
+  box-shadow: 5px 5px gold;
+}
+
+.col img {
+  border: 1px solid gold;
+}
+.col p {
+  color: gold;
+  font-family: "Mouse Memoirs";
+  font-size: 30px;
+}
+.col p span {
+  font-family: "Alkalami";
+  color: white;
+  font-size: 25px;
+}
+.btn {
+  text-decoration: none;
+}
+.btn:hover {
+  text-decoration: none;
+}

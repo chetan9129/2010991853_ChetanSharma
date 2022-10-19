@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&display=swap");
+.homeStyle {
+  background-color: #14161a;
+  /* height: 220vh; */
+}
+.form_para {
+  color: white;
+}
+.form_header {
+  font-family: "Alkalami";
+  font-size: 55px;
+}
+.form_button {
+  background-color: gold;
+  color: white;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+.mapImport {
+  /* margin: 40px; */
+}
+.mapImort_heading {
+  font-size: 40px;
+  color: gold;
+  font-family: "Alkalami";
+  text-align: center;
+}
+.gmap_iframe {
+  width: 100%;
+  height: 500px;
+  background-size: 100% 100%;
+}
+.homeStyle {
+  height: 120vh;
+}
+.homeStyle_main {
+  margin-left: 50px;
+}

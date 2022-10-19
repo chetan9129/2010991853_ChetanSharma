@@ -1,0 +1,118 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Virat Sharma",
+      "username": "kohli.virat",
+      "email": "kohli.virat@yahoo.com",
+      "address": {
+        "street": "Victor Plains",
+        "suite": "Suite 879",
+        "city": "Wisokyburgh",
+        "zipcode": "90566-7771",
+        "geo": {
+          "lat": "-43.9509",
+          "lng": "-34.4618"
+        }
+      },
+      "phone": "987565462",
+      "website": "anastasia.net",
+      "company": {
+        "name": "Deckow-Crist",
+        "catchPhrase": "Proactive didactic contingency",
+        "bs": "synergize scalable supply-chains"
+      },
+      "problem": "Cough",
+      "checkIn": "2022-05-04",
+      "image": "https://im.rediff.com/cricket/2022/sep/08vk.gif"
+    },
+    {
+      "id": 2,
+      "name": "Anushka Sharma",
+      "username": "aushka45",
+      "email": "anushka.sharma45@gmail.com",
+      "address": {
+        "street": "Douglas Extension",
+        "suite": "Suite 847",
+        "city": "McKenziehaven",
+        "zipcode": "59590-4157",
+        "geo": {
+          "lat": "-68.6102",
+          "lng": "-47.0653"
+        }
+      },
+      "phone": "8885479625",
+      "website": "ramiro.info",
+      "company": {
+        "name": "Romaguera-Jacobson",
+        "catchPhrase": "Face to face bifurcated interface",
+        "bs": "e-enable strategic applications"
+      },
+      "problem": "Swelling",
+      "checkIn": "2022-10-16",
+      "image": "https://m.media-amazon.com/images/M/MV5BNGM5YmYwNjUtNzQyYS00OGY0LTljZDAtMDNiMjhiOTFiMzRiXkEyXkFqcGdeQXVyMTExNDQ2MTI@._V1_.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Sunny Sharma",
+      "username": "sharma.sunny",
+      "email": "sharma.sunny112@gmail.com",
+      "address": {
+        "street": "Hoeger Mall",
+        "suite": "Apt. 692",
+        "city": "South Elvis",
+        "zipcode": "53919-4257",
+        "geo": {
+          "lat": "29.4572",
+          "lng": "-164.2990"
+        }
+      },
+      "phone": "7758469213",
+      "website": "kale.biz",
+      "company": {
+        "name": "Robel-Corkery",
+        "catchPhrase": "Multi-tiered zero tolerance productivity",
+        "bs": "transition cutting-edge web services"
+      },
+      "problem": "Stomach Ache",
+      "checkIn": "2022-10-14",
+      "image": "https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_5/IMAGE_1646997026.webp"
+    },
+    {
+      "id": 4,
+      "name": "Sidharth Shukla",
+      "username": "shukla.sidarth",
+      "email": "sidarthshukla1212@gmail.com",
+      "address": {
+        "street": "Skiles Walks",
+        "suite": "Suite 351",
+        "city": "Roscoeview",
+        "zipcode": "33263",
+        "geo": {
+          "lat": "-31.8129",
+          "lng": "62.5342"
+        }
+      },
+      "phone": "459876321",
+      "website": "demarco.info",
+      "company": {
+        "name": "Keebler LLC",
+        "catchPhrase": "User-centric fault-tolerant solution",
+        "bs": "revolutionize end-to-end systems"
+      },
+      "problem": "Head Ache",
+      "checkIn": "2022-10-10",
+      "image": "https://englishtribuneimages.blob.core.windows.net/gallary-content/2021/9/2021_9$largeimg_1987744647.jpg"
+    },
+    {
+      "name": "Chasfvhuas",
+      "username": "dshfgyus",
+      "email": "hgfs@gmAIL.COM",
+      "phone": "95148",
+      "problem": "fEVER",
+      "checkIn": "62003-04-07",
+      "image": "https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/field_blog_entry_images/2018-09/shutterstock_648907024.jpg?itok=7lrLYx-B",
+      "id": 5
+    }
+  ]
+}

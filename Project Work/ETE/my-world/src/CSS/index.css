@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&display=swap");
+
+.formIndex {
+  color: gold;
+  font-size: 45px;
+  font-family: "Mouse Memoirs";
+}
+.formIndexPara {
+  color: white;
+  font-size: 22px;
+  margin-left: 14px;
+}
+.button {
+  background-color: gold;
+  color: black;
+}
+.button:hover {
+  background-color: gold;
+  color: black;
+}

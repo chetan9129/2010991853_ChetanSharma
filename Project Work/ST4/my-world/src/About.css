@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap");
+.homeStyle {
+  background-color: #14161a;
+  height: 123vh;
+  margin-top: 40px;
+  width: 100%;
+}
+
+/* .about-section {
+  padding: 50px 0;
+  background-image: url("https://doccure-react.dreamguystech.com/template/57b731c8063438d33777051338027c60.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+} */
+.about-title {
+  text-decoration: none;
+  color: gold;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 2px;
+  padding: 5px;
+}
+.about-title:hover {
+  text-decoration: none;
+  color: gold;
+}
+.homeStyleHeading {
+  font-family: "Mouse Memoirs", sans-serif;
+  text-transform: capitalize;
+  font-size: 80px;
+  color: rgba(0, 255, 234, 0.864);
+  margin: 50px;
+}
+.homeStyleContent {
+  margin-left: 50px;
+  margin-right: 25px;
+  font-size: 20px;
+  color: white;
+}
+.homeStyle-heading {
+  font-size: 40px;
+  font-family: "Mouse Memoirs", sans-serif;
+  color: gold;
+}
+.homeStyle-para {
+  font-size: 20px;
+  color: white;
+}
+.aboutOptionContent {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+}
+.text-center {
+  color: white;
+  font-family: "Mouse Memoirs", sans-serif;
+}
+.cards {
+  border: 1px solid white;
+  box-shadow: 5px 5px rgba(255, 217, 0, 0.471);
+  margin-bottom: -10px;
+}

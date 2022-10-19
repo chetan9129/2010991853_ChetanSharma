@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&display=swap");
+.formUser {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  border: 1px solid gold;
+  box-shadow: 5px 5px gold;
+}
+
+.formUser h1 {
+  color: gold;
+  font-family: "Alkalami";
+  font-size: 45px;
+  margin-bottom: 25px;
+}
+.formUser p {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 22px;
+}

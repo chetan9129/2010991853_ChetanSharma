@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&display=swap");
+.home {
+  font-family: "Mouse Memoirs";
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.home__optionBanner {
+  opacity: 0.5;
+  height: 500px;
+  width: 100%;
+  background-size: contain;
+  background-position: center;
+}
+
+.home__option {
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.home__optionHeading {
+  font-family: "Mouse Memoirs";
+  color: white;
+  font-size: 65px;
+  text-transform: uppercase;
+}
+.home__optionSubHeading {
+  font-size: 35px;
+  color: white;
+  font-weight: 600;
+}
+.home_optionContent {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  margin-top: -75px;
+}
+.card_main {
+  border-radius: 5px;
+  color: white;
+  /* background-color: #14161a; */
+}
+.card_main:hover {
+  scale: 1.05;
+  transition: all linear 0.5s;
+}
+.cards {
+  background-color: #14161a;
+}
+.cards_title {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: gold;
+  font-family: "Alkalami", serif;
+}
+.cards-content {
+  /* font-size: 20px; */
+  font-weight: lighter;
+  font-family: "Courier New", Courier, monospace;
+}
+/* .card_button {
+  scale: 1.2;
+  background-color: #14161a;
+} */

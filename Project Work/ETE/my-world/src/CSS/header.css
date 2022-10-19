@@ -1,0 +1,21 @@
+.header {
+  width: 100.5%;
+  margin: -8px;
+}
+.header_style {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  /* justify-self: center; */
+  background-color: #14161a8a;
+  font-weight: 600;
+  font-size: 22px;
+}
+.header_style p {
+  margin-top: 17px;
+}
+.myWorldLogo {
+  height: 75px;
+  width: 150px;
+}
